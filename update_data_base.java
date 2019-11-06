@@ -930,9 +930,9 @@ public class update_data_base {
 
                                 if ((sum1 > sum2 && sum1 > 85 && sum_a_synergy > 55) || (sum_a_synergy > 150) ) {
 
-                                    URL url2 = new URL("https://api.telegram.org/bot7683213429365:AAHewSyP32311sa_uNQxa00XAdwS4hdvzQFCt1233sA/sendMessage?chat_id=569502265&text= " +dire_team);
+                                    URL url2 = new URL("https://api.telegram.org/bot76832134293&text= " +dire_team);
 
-                                    URL url = new URL("https://api.telegram.org/bot7684231229365:AAHe1231wSyP1sa_uNQxa00231XAdwS4hdvzQFCtsA/sendMessage?chat_id=569502265&text= "+dire_team+" versus " + radiant_team+"!!!--| count: "+fc3+"| synergy : "+fc5+"| PLAYERS SIGNATURE :"+fc1 +" ( "+currentRadPick.get(0)+": "+fa1+"|"+currentRadPick.get(1)+": "+fa2+"|"+currentRadPick.get(2)+": "+fa3+"|"+currentRadPick.get(3)+": "+fa4+"|"+currentRadPick.get(4)+": "+fa5+" )");
+                                    URL url = new URL("https://api.telegram.org/bot768423text= "+dire_team+" versus " + radiant_team+"!!!--| count: "+fc3+"| synergy : "+fc5+"| PLAYERS SIGNATURE :"+fc1 +" ( "+currentRadPick.get(0)+": "+fa1+"|"+currentRadPick.get(1)+": "+fa2+"|"+currentRadPick.get(2)+": "+fa3+"|"+currentRadPick.get(3)+": "+fa4+"|"+currentRadPick.get(4)+": "+fa5+" )");
                                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                                     con.setRequestMethod("GET");
                                     System.out.println("telegram response code: "+con.getResponseCode());
@@ -942,14 +942,14 @@ public class update_data_base {
                                 else if(sum_b_synergy<-150){
 
 
-                                    URL url = new URL("https://api.telegram.org/bot768213429365:AAH1212P1sa_3212uNQxa00XAdwS4hdvzQFCtsA/sendMessage?chat_id=569502265&text= "+radiant_team+"!!! vesus " + dire_team+"-- |count: "+fc4+"| synergy : "+fc6+"| PLAYERS SIGNATURE :"+fc2 +" ( "+currentDirePick.get(0)+": "+fb1+"|"+currentDirePick.get(1)+": "+fb2+"|"+currentDirePick.get(2)+": "+fb3+"|"+currentDirePick.get(3)+": "+fb4+"|"+currentDirePick.get(4)+": "+fb5+" )");
+                                    URL url = new URL("https://api.telegram.org/bot76S4hdvzQFCtsA/sendMes65&text= "+radiant_team+"!!! vesus " + dire_team+"-- |count: "+fc4+"| synergy : "+fc6+"| PLAYERS SIGNATURE :"+fc2 +" ( "+currentDirePick.get(0)+": "+fb1+"|"+currentDirePick.get(1)+": "+fb2+"|"+currentDirePick.get(2)+": "+fb3+"|"+currentDirePick.get(3)+": "+fb4+"|"+currentDirePick.get(4)+": "+fb5+" )");
                                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                                     con.setRequestMethod("GET");
                                     System.out.println("telegram response code: "+con.getResponseCode());
                                     System.out.println("" + dire_team+" have very low synergy try to bet on their lose ");
                                 }
                                 else if(sum_a_synergy<-150){
-                                    URL url = new URL("https://api.telegram.org/bot762318129365:312wSyP1sa_uSQxa00XAdwS4hddsj21231zQFCtsA/sendMessage?chat_id=569502265&text="+dire_team+"!!! versus " + radiant_team+"" +
+                                    URL url = new URL("https://api.telegram.org/bot762318129365:312wSyP1sa_uSQxad=56ext="+dire_team+"!!! versus " + radiant_team+"" +
                                             " -| count: "+fc3+"| synergy : "+fc5+"| PLAYERS SIGNATURE :"+fc1 +" ( "+currentRadPick.get(0)+": "+fa1+"|"+currentRadPick.get(1)+": "+fa2+"|"+currentRadPick.get(2)+": "+fa3+"|"+currentRadPick.get(3)+": "+fa4+"|"+currentRadPick.get(4)+": "+fa5+" )");
                                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                                     con.setRequestMethod("GET");
@@ -958,8 +958,8 @@ public class update_data_base {
                                 }
 
                                 else if ((sum2 > sum1 && sum2 > 85 && sum_b_synergy > 55) || ( sum_b_synergy > 150)) {
-                                    URL url = new URL("https://api.telegram.org/bot768429322:OAewSyP1sa_uNQxa00X23AdwS4hdvzQFCtsA/sendMessage?chat_id=523502265&text="+radiant_team+ " versus " + dire_team+"!!!- |count: "+fc4+"| synergy : "+fc6+"| PLAYERS SIGNATURE :"+fc2 +" ( "+currentDirePick.get(0)+": "+fb1+"|"+currentDirePick.get(1)+": "+fb2+"|"+currentDirePick.get(2)+": "+fb3+"|"+currentDirePick.get(3)+": "+fb4+"|"+currentDirePick.get(4)+": "+fb5+" )");
-                                    URL url2 = new URL("https://api.telegram.org/bot73142936215:A2ewSyP1sa_uNQ123xa00XAdwS4hdvzQFCtsA/sendMessage?chat_id=534502265&text= " );
+                                    URL url = new URL("https://api.telegram.org/bot768429322:OAewSyP1sa_u02265&text="+radiant_team+ " versus " + dire_team+"!!!- |count: "+fc4+"| synergy : "+fc6+"| PLAYERS SIGNATURE :"+fc2 +" ( "+currentDirePick.get(0)+": "+fb1+"|"+currentDirePick.get(1)+": "+fb2+"|"+currentDirePick.get(2)+": "+fb3+"|"+currentDirePick.get(3)+": "+fb4+"|"+currentDirePick.get(4)+": "+fb5+" )");
+                                    URL url2 = new URL("https://api.telegram.org/bot73142936215:A2ewSyP1sa_uNQ123xa00X65&text= " );
 
                                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                                     con.setRequestMethod("GET");
